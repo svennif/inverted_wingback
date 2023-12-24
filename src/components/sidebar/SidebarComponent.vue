@@ -1,13 +1,12 @@
-<template lang="">
-    <div>
-        
-    </div>
-</template>
-<script>
-export default {
-    
-}
+<script setup>
+    import { RouterLink } from 'vue-router'
 </script>
-<style lang="">
-    
-</style>
+<template lang="">
+    <header>
+        <nav>
+            <RouterLink to="/">Dashboard</RouterLink>
+            <RouterLink to="/about">About</RouterLink>
+        </nav>
+    </header>
+</template>
+<style lang=""></style>
