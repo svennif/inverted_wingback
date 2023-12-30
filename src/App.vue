@@ -4,10 +4,8 @@ import SidebarComponent from './components/sidebar/SidebarComponent.vue';
 </script>
 
 <template>
-  <div class="container">
     <SidebarComponent class="sidebar" />
-    <RouterView class="p-4 Rsm:ml-64" />
-  </div>
+    <RouterView class="p-4 sm:ml-64 h-screen bg-gray-500" />
 </template>
 
 <style scoped>
