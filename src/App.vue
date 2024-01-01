@@ -5,7 +5,7 @@ import SidebarComponent from './components/sidebar/SidebarComponent.vue';
 
 <template>
     <SidebarComponent class="sidebar" />
-    <RouterView class="p-4 sm:ml-64 h-screen bg-gray-500" />
+    <RouterView class="p-4 sm:ml-64 h-screen bg-gray-800" />
 </template>
 
 <style scoped>
